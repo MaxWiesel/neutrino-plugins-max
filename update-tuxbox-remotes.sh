@@ -1,6 +1,8 @@
 #!/bin/sh
 
-REPLIST="cooliTSclimax getrc input logomask logoview msgbox scripts-lua shellexec tuxcal tuxcom tuxmail tuxwetter"
+#git subtree add --prefix=sysinfo https://github.com/tuxbox-neutrino/plugin-sysinfo.git master
+
+REPLIST="cooliTSclimax getrc input logomask logoview msgbox scripts-lua shellexec sysinfo tuxcal tuxcom tuxmail tuxwetter"
 
 export GIT_MERGE_AUTOEDIT=no
 for plugin in $REPLIST; do
